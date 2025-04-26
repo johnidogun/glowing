@@ -560,16 +560,35 @@
  
   .hero{
     padding-block-start: 0;
+   
     
     
   }
-  .hero .container{
+  .section-hero{
+
+  }
+  .scrollbar-item{
+
+    width:100%;
+  }
+  .section-hero .container{
+
+  }
+  .card-content{
+   
   
   }
-  .hero-card{
+  .hero .container{
+    display: flex;
+    width: 600px;
+  
+  }
+  .hero-card {
     padding: 100px 15px;
     background-color: var(--light-gray);
     background-position: 40%;
+
+  
     
    
   }
@@ -588,6 +607,10 @@
   }
   .hero .scrollbar-item{
     min-width:100%
+  }
+  .hero-price{
+    margin-bottom: 10px;
+   
   }
 
 
@@ -783,7 +806,17 @@
 
 .feature { 
   display: inline-block;
-  text-align: center; }
+  text-align: center; 
+  margin: 20px;
+ 
+}
+.section-feature .container{
+padding: 20px;
+}
+.h2-large{
+    margin: 30px;
+    text-align: center;
+}
 
 .feature .section-title { margin-block-end: 40px; }
 
@@ -803,7 +836,10 @@
 /*-----------------------------------*\
   #OFFER
 \*-----------------------------------*/
+.offer{
+  margin:20px;
 
+}
 .offer-banner {
   display:flex;
   grid-template-columns: 0.7fr 1fr;
